@@ -11,15 +11,15 @@ body{
   background-color: red;
   margin-right: 15px;
 }
-.column-right{
+.column-mid{
   background-color: green;
   margin-right: 15px;
 }
-.top{
+.column-right{
   background-color: blue;
 
 }
-.column-left,.column-right, .top{
+.column-left,.column-right, .column-mid{
   display: flex;
   justify-content: center;
   align-items: center;
