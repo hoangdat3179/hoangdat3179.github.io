@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+}
+.column-left{
+  background-color: red;
+  margin-right: 15px;
+}
+.column-right{
+  background-color: green;
+  margin-right: 15px;
+}
+.top{
+  background-color: blue;
+
+}
+.column-left,.column-right, .top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 721px;
+}
