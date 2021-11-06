@@ -11,9 +11,11 @@ body{
     background-color: pink;
     display: flex;
     justify-content: center;
-    padding-top: 200px;
 }
 .box{
     display: flex;
     justify-content: center;
+}
+.container{
+    margin-top: 100px;
 }
