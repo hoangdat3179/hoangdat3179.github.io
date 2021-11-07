@@ -2,7 +2,6 @@ body{
     background-color: pink;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .picture{
     border: 10px solid white;
