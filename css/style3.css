@@ -2,19 +2,20 @@ body{
     background-color: pink;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .picture{
     border: 10px solid white;
-    width: 80px;
+    transition: 0.3s;
+    object-fit: cover;
+    display: block;
+    margin: 5px;
 }
 .picture:hover{
     border-radius: 25px;
     transform: scale(1.5);
-    transition: 0.3s;
 }
 .box{
     display: flex;
-}
-.box1{
-    margin-top: 150px;
+    justify-content: center;
 }

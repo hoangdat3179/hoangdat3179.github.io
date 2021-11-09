@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+a {
+  text-transform: capitalize;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sub-menu {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 250px;
+  display: none;
+  padding-top: 0px;
+  height: max-content;
+  box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
+}
+.main-menu li a {
+  text-decoration: none;
+}
+.main-menu li:hover .sub-menu {
+  display: block;
+  cursor: pointer;
+}
+.main-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
+  width: 300px;
+  height: max-content;
+}
+li {
+padding: 20px 20px 20px;
+}
+.main-menu li:hover .list {
+  color: orange;
+  cursor: pointer;
+}
+a:hover {
+  color: orange;
+  cursor: pointer;
+}
+.main-menu li:hover {
+  background-color: #eceff1;
+}
+#icon{
+  position: absolute;
+  right: 4px;
+  font-size: 15px;
+}
