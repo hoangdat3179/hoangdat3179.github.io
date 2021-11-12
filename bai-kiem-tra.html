@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chu</title>
+    <link rel="shortcut icon" href="/img2/download.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/bai-kiem-tra.css" />
+  </head>
+  <body>
+    <header>
+      <h1>6 địa điểm tham quan du lịch ở Hà Nội hấp dẫn nhất</h1>
+    </header>
+    <div class="grid">
+      <div class="grid-item">
+        <a href="Lang-bac.html">
+          <div class="card post">
+            <img
+              src="/img2/anh-lang-bac.jpg"
+              alt="Quảng trường Ba Đình – Lăng Bác"
+            />
+          </div>
+          <div class="title">Quảng trường Ba Đình – Lăng Bác</div></a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="Ho-guom.html">
+          <div class="card post">
+            <img src="/img2/ho-guom-ha-noi.jpg" alt="Hồ Gươm" />
+          </div>
+          <div class="title">Hồ Gươm</div></a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="Pho-co.html">
+          <div class="card post">
+            <img
+              src="/img2/pho-co-ta-hien-goc-anh-doc-dao-khi-chup-anh-cuoi-tai-ha-noi.jpg"
+              alt="Phố cổ Hà Nội – địa điểm du lịch hấp dẫn"
+            />
+          </div>
+          <div class="title">Phố cổ Hà Nội – địa điểm du lịch hấp dẫn</div></a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="Van-mieu.html">
+          <div class="card post">
+            <img src="/img2/van-mieu.jpg" alt="Văn Miếu – Quốc Tử Giám" />
+          </div>
+          <div class="title">Văn Miếu – Quốc Tử Giám</div></a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="Nha-tho-lon.html">
+          <img src="/img2/nha-tho-lon-ha-noi.jpg" alt="Nhà thờ lớn Hà Nội" />
+          <div class="title">Nhà thờ lớn Hà Nội</div></a
+        >
+      </div>
+      <div class="grid-item">
+        <a href="nha-hat-lon.html">
+          <div>
+            <img
+              src="/img2/nha-hat-lon-ha-noi-1.jpg"
+              alt="Nhà hát lớn Hà Nội"
+            />
+          </div>
+          <div class="title">Nhà hát lớn Hà Nội</div></a
+        >
+      </div>
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+      var elem = document.querySelector(".grid");
+      var msnry = new Masonry(elem, {
+        itemSelector: ".grid-item",
+        columnWidth: 400,
+      });
+      var msnry = new Masonry(".grid", {});
+    </script>
+  </body>
+</html>

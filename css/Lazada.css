@@ -28,28 +28,37 @@ ul {
 }
 .main-menu {
   position: absolute;
-  top: 0;
+  top: 70px;
   left: 0;
   box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
   width: 300px;
   height: max-content;
 }
 li {
-padding: 20px 20px 20px;
+  padding: 20px 20px 20px;
 }
 .main-menu li:hover .list {
-  color: orange;
-  cursor: pointer;
-}
-a:hover {
   color: orange;
   cursor: pointer;
 }
 .main-menu li:hover {
   background-color: #eceff1;
 }
-#icon{
+#icon {
   position: absolute;
   right: 4px;
   font-size: 15px;
+}
+.main-menu:hover {
+  color: orange;
+  cursor: pointer;
+}
+.sub-menu li:hover .list2 {
+  color: orange;
+  cursor: pointer;
+}
+.img{
+  display: block;
+  text-align: center;
+  background: #8b66ff;
 }

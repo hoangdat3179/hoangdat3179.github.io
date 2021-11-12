@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Slick Carousel</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <style>
+      body{
+        margin: 0;
+      }
+      .grid{
+        max-width: 900px;
+        margin: auto;
+      }
+      img{
+        max-width: 100%;
+      }
+      .grid-item {
+        width: 300px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="grid">
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c65q43k51cod6e7c2vng"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c654r8451cob0ng450fg"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/c2m5ou451cob24f6skeg/c64tdns51cob0ng450b0"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c3o1kfk51co54dnk9kig/////"
+        />
+      </div>
+      <div class="grid-item grid-item--width2">
+        <img
+          src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c630bps51cob0ng4505g"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/c2m5ou451cob24f6skeg/c62egac51co49felapjg"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/c2m5ou451cob24f6skeg/c61147s51co49felap8g/"
+        />
+      </div>
+      <div class="grid-item grid-item--width2">
+        <img
+          src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c615k5s51co49felapb0"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/9479/c5n7pok51co8fjgguau0"
+        />
+      </div>
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+      var elem = document.querySelector(".grid");
+      var msnry = new Masonry(elem, {
+        itemSelector: ".grid-item",
+        columnWidth: 200,
+      });
+      var msnry = new Masonry(".grid", {
+      });
+    </script>
+  </body>
+</html>

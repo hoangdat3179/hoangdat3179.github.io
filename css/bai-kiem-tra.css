@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-color: #f4f7fa;
+}
+.grid {
+  max-width: 1000px;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.grid-item {
+  width: 30%;
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 15%);
+  color: #464646;
+  border-radius: 10px;
+  background-color: white;
+  transition: 0.3s;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.title {
+  display: block;
+  text-align: center;
+}
+header {
+  display: block;
+  text-align: center;
+}
+.grid-item:hover{
+    transform: rotate(3deg);
+}
