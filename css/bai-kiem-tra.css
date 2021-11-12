@@ -29,6 +29,7 @@ a {
 .title {
   display: block;
   text-align: center;
+  padding: 20px;
 }
 header {
   display: block;
